@@ -1,9 +1,9 @@
 // complete the given function
 
 function palindrome(str){
-	 str = str.toLowerCase();
+	 str = str.toLowerCase;
       let i =0;
-	let j = str.length();
+	let j = str.length;
 	while(i<=j){
 		while(str[i]==" "){
 			i++;
@@ -13,6 +13,7 @@ function palindrome(str){
 		i++;
 		j--;
 	}
-	return true
+	return true;
 }
-module.exports = palindrome
+// module.exports = palindrome
+console.log(palindrome( "racecar"));
