@@ -3,7 +3,7 @@
 function palindrome(str){
 	 str = str.toLowerCase;
       let i =0;
-	let j = str.length;
+	let j = str.length-1;
 	while(i<=j){
 		while(str[i]==" "){
 			i++;
@@ -15,5 +15,5 @@ function palindrome(str){
 	}
 	return true;
 }
-module.exports = palindrome
-// console.log(palindrome( "racecar"));
+// module.exports = palindrome
+console.log(palindrome( "abbababababababa" ));
